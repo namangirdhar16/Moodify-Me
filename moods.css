@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.header{
+    text-align: center;
+}
+/* .cameraAndButtons{
+    display: flex;
+    flex-direction: column;
+} */
+.content{
+    margin: 10% auto auto auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.inside-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.camera-section{
+    border: 2px solid red;
+    height: 50vh;
+    border-radius: 2rem;
+}
+#video{
+    border: 2px solid red;
+    border-radius: 140px;
+
+}
+.button-section{
+    border: 2px solid red; 
+    width: 18vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    
+    /* left: -9rem; */
+
+}
+
+.detectmyface, .capture, .onbutton{
+    height: 3rem;
+    width: 90%;
+    border-radius: 1.5rem;
+}
+
+.upload-section{
+   border: 2px solid red;
+   height: 50vh;
+    text-align: center;
+    position: relative;
+    left: 2rem;
+    border-radius: 2rem;
+   
+}
+form{
+    text-align: center;
+    /* padding: 2%; */
+}
+
+form input{
+    margin-top: 7%;
+}
+.uploadbutton{
+    margin-top: 15%;
+    height: 3rem;
+    width: 90%;
+    border-radius: 1.5rem;
+}
+canvas{
+    position: absolute;
+    top: 21%;
+    left: 11%;
+}

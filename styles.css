@@ -1,0 +1,80 @@
+.main__heading{
+    text-align: center;
+    
+}
+.header{
+    margin-top: 6%;
+    padding: 2%;
+    font-size: 1.6rem;
+}
+.heading{
+    font-size: 5.3rem;
+}
+.heading__sub{
+    margin-top: 0.8%;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+}
+
+.heading__sub__sub{
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin: 1.5% auto 0 auto;
+    width: 40%;
+}
+
+.content{
+    margin-top: 1%;
+    padding: 2%;
+}
+
+.only__moods{
+    height: 3.7rem;
+    border-radius: 2rem;
+    width: 25rem;
+    font-size: 1.2rem;
+}
+
+.login{
+    height: 3.7rem;
+    border-radius: 2rem;
+    width: 15rem;
+    font-size: 1.2rem;
+}
+
+.footer{
+    margin-top: 3%;
+}
+.copyright{
+    font-size: 0.7rem;
+    letter-spacing: 0.05rem;
+}
+.developedby{
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    /* color: #0087ca; */
+  }
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
